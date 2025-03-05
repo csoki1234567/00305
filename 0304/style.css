@@ -1,0 +1,52 @@
+.box{
+    display: flex;
+    text-align: center;
+}
+.col1{
+    background-image: radial-gradient(circle,hsl(252, 100%, 67%),hsla(256, 72%, 46%, 1));
+   padding: 2%;
+   border-radius: 25px;
+}
+h2,h3{
+    color: gray;
+}
+.score{
+    border-radius: 100px;
+    padding-top:50px;
+    margin: auto;
+    max-width: fit-content;
+    padding: 40px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsl(252, 100%, 67%));
+}
+body{
+    margin-left: 650px;
+}
+html{background-color: hsl(221, 100%, 96%);}
+.message{
+    max-width: 225px;}
+h1{margin: 0;}
+.col2{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+    padding: 2%;
+}
+.reaction{
+    color: red;
+    border-radius: 25px;
+   /* background-color:hsl(0, 100%, 67%) ;
+    opacity: 0.2;*/
+}
+.reaction::before{
+    content: url(assets/images/icon-reaction.svg);
+}
+.memory::before{
+    content: url(assets/images/icon-memory.svg);
+}
+.verbal::before{
+    content: url(assets/images/icon-verbal.svg);
+}
+.visual::before{
+    content: url(assets/images/icon-visual.svg);
+}
