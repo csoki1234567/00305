@@ -8,7 +8,13 @@
    border-radius: 25px;
 }
 h2,h3{
-    color: gray;
+    color: #baaffb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
 }
 .score{
     border-radius: 100px;
@@ -38,6 +44,15 @@ h1{margin: 0;}
    /* background-color:hsl(0, 100%, 67%) ;
     opacity: 0.2;*/
 }
+.memory{
+    color: hsl(39, 100%, 56%);
+}
+.verbal{
+    color: hsl(166, 100%, 37%);
+}
+.visual{
+    color: hsl(234, 85%, 45%);
+}
 .reaction::before{
     content: url(assets/images/icon-reaction.svg);
 }
@@ -50,3 +65,5 @@ h1{margin: 0;}
 .visual::before{
     content: url(assets/images/icon-visual.svg);
 }
+
+@font-face { font-family: Delicious; src: url(/0304/assets/fonts/HankenGrotesk-VariableFont_wght.ttf); } 
