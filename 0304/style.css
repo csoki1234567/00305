@@ -35,23 +35,26 @@ h1{margin: 0;}
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    
+    width: 225.25px;
     padding: 2%;
+    border-radius: 25px;
 }
 .reaction{
-    color: red;
+    color: hsl(0, 100%, 67%);
     border-radius: 25px;
-   /* background-color:hsl(0, 100%, 67%) ;
-    opacity: 0.2;*/
+    background-color: hsl(0, 100%, 80%);
 }
 .memory{
     color: hsl(39, 100%, 56%);
+    background-color:hsl(39, 100%, 80%) ;
 }
 .verbal{
     color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 50%);
 }
 .visual{
     color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 70%);
 }
 .reaction::before{
     content: url(assets/images/icon-reaction.svg);
@@ -65,5 +68,19 @@ h1{margin: 0;}
 .visual::before{
     content: url(assets/images/icon-visual.svg);
 }
-
-@font-face { font-family: Delicious; src: url(/0304/assets/fonts/HankenGrotesk-VariableFont_wght.ttf); } 
+.col2 p{
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.continue{
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 25px;
+    margin-top: 30px;
+    padding: 1px;
+}
+.summary{
+    color: black;
+    text-align: left;
+}
